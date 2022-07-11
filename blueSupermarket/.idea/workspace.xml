@@ -13,6 +13,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="dev" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -30,7 +35,10 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/gina_/IdeaProjects/blueSupermarket/blueSupermarket/src/main/webapp",
+    "last_opened_file_path": "C:/Users/espel/Downloads/blueSupermarket-main",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "com.poratu.idea.plugins.tomcat.setting.TomcatSettingConfigurable"
   }
 }]]></component>
@@ -44,7 +52,7 @@
     <configuration name="Tomcat" type="com.poratu.idea.plugins.tomcat" factoryName="SMART_TOMCAT_FACTORY">
       <option name="adminPort" value="8005" />
       <option name="contextPath" value="/blueSupermarket" />
-      <option name="docBase" value="C:\Users\gina_\IdeaProjects\blueSupermarket\blueSupermarket\src\main\webapp" />
+      <option name="docBase" value="C:\Bolsa Estágio CompassoUol\AvaliacaoIV\blueSupermarket\src\main\webapp" />
       <option name="envOptions">
         <map />
       </option>
@@ -52,10 +60,32 @@
       <option name="port" value="8080" />
       <option name="tomcatInfo">
         <TomcatInfo>
-          <option name="name" value="Apache Tomcat/9.0.64" />
+          <option name="name" value="Apache Tomcat/9.0.37" />
           <option name="number" value="0" />
-          <option name="path" value="C:\Users\gina_\apache-tomcat-9.0.64-prod\apache-tomcat-9.0.64" />
-          <option name="version" value="9.0.64.0" />
+          <option name="path" value="C:\Bolsa Estágio CompassoUol\apache-tomcat-9.0.37" />
+          <option name="version" value="9.0.37.0" />
+        </TomcatInfo>
+      </option>
+      <option name="vmOptions" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="com.poratu.idea.plugins.tomcat" factoryName="SMART_TOMCAT_FACTORY">
+      <option name="adminPort" value="8005" />
+      <option name="contextPath" value="/blueSupermarket" />
+      <option name="docBase" value="C:\Bolsa Estágio CompassoUol\AvaliacaoIV\blueSupermarket\src\main\webapp" />
+      <option name="envOptions">
+        <map />
+      </option>
+      <option name="passParentEnvironmentVariables" value="true" />
+      <option name="port" value="8080" />
+      <option name="tomcatInfo">
+        <TomcatInfo>
+          <option name="name" value="Apache Tomcat/9.0.37" />
+          <option name="number" value="0" />
+          <option name="path" value="C:\Bolsa Estágio CompassoUol\apache-tomcat-9.0.37" />
+          <option name="version" value="9.0.37.0" />
         </TomcatInfo>
       </option>
       <option name="vmOptions" value="" />
