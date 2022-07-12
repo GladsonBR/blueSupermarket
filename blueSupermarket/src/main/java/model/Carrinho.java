@@ -4,7 +4,8 @@ import java.util.List;
 
 public class Carrinho {
     private int idCarrinhos;
-    private List <Produtos> listaProdutos;
+    private int idProdutos;
+    private List<Produtos> listProdutos;
     private int qtn;
     private String cpfUsuario;
     private String cep;
@@ -16,12 +17,24 @@ public class Carrinho {
         return idCarrinhos;
     }
 
-    public List<Produtos> getListaProdutos() {
-        return listaProdutos;
+    public void setIdCarrinhos(int idCarrinhos) {
+        this.idCarrinhos = idCarrinhos;
     }
 
-    public void setListaProdutos(List<Produtos> listaProdutos) {
-        this.listaProdutos = listaProdutos;
+    public List<Produtos> getListProdutos() {
+        return listProdutos;
+    }
+
+    public void setListProdutos(List<Produtos> listProdutos) {
+        this.listProdutos = listProdutos;
+    }
+
+    public int getIdProdutos() {
+        return idProdutos;
+    }
+
+    public void setIdProdutos(int idProdutos) {
+        this.idProdutos = idProdutos;
     }
 
     public int getQtn() {

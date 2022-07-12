@@ -3,25 +3,26 @@ package model;
 public class Produtos {
     private long id;
     private String nome;
+    private String categoria;
     private String descrição;
     private Double preco;
-    private int quant;
+//    private int quant;
 
     public Produtos() {
     }
 
-    public Produtos(long id, String nome, String descrição, Double preco, int quant) {
+    public Produtos(long id, String nome, String categoria,String descrição, Double preco) {
         this.id = id;
         this.nome = nome;
+        this.categoria = categoria;
         this.descrição = descrição;
         this.preco = preco;
-        this.quant = quant;
+
     }
 
     public long getId() {
-        return idd;
+        return id;
     }
-
 
     public String getNome() {
         return nome;
@@ -47,11 +48,15 @@ public class Produtos {
         this.preco = preco;
     }
 
-    public int getQuant() {
-        return quant;
+    public void setId(long id) {
+        this.id = id;
     }
 
-    public void setQuant(int quant) {
-        this.quant = quant;
+    public String getCategoria() {
+        return categoria;
+    }
+
+    public void setCategoria(String categoria) {
+        this.categoria = categoria;
     }
 }

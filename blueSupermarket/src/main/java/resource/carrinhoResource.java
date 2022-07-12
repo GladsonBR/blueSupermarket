@@ -16,7 +16,7 @@ public class carrinhoResource {
 
     @GET
     @Path("/{id}")
-    public void getProdutoId(@PathParam("id") long id){
+    public void inserirCarrinhoProdId(@PathParam("id") long id) throws SQLException {
         new CarrinhoService().addProdutoCarrinho(id);
     }
 

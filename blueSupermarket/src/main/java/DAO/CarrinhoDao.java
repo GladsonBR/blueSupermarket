@@ -6,7 +6,7 @@ import model.Carrinho;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
-import java.sql.Statement;
+
 
 public class CarrinhoDao {
     private Connection connection;
@@ -17,9 +17,11 @@ public class CarrinhoDao {
     }
 
     public void inserirCompra(Carrinho carrinho){
+        System.out.println(carrinho.getListProdutos().size());
+
         String sql = "INSERT INTO carrinho (idProduto, qtn, cpfUsuario, cep, valorFrete, prazoEntrega, valorTotal) VALUES (?,?,?,?,?,?,?)";
         try(PreparedStatement pstm = connection.prepareStatement(sql)){
-            pstm.setInt(1,carrinho.getIdProduto());
+            pstm.setInt(1,carrinho.getIdProdutos());
             pstm.setInt(2,carrinho.getQtn());
             pstm.setString(3,carrinho.getCpfUsuario());
             pstm.setString(4,carrinho.getCep());
