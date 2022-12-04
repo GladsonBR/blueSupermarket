@@ -13,7 +13,7 @@ public class CepJson {
         public List<CEP> buscaCep (String json) {
 
         CEP cepObject = new Gson().fromJson(json, CEP.class);
-        System.out.println(cepObject.getCEP());
+//        System.out.println(cepObject.getCEP());
 
         List<CEP> lista = new ArrayList<>();
         lista.add(cepObject);
